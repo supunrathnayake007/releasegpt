@@ -1,0 +1,126 @@
+{
+    "sprint": {
+        "id": 42,
+        "name": "Sprint 24.08.2",
+        "startDate": "2025-08-05T09:00:00Z",
+        "endDate": "2025-08-19T18:00:00Z"
+    },
+    "tickets": [
+        {
+            "key": "RGPT-101",
+            "type": "Story",
+            "status": "Done",
+            "summary": "Generate release notes from Jira + Git commits",
+            "labels": [
+                "release-notes",
+                "automation"
+            ],
+            "assignee": "supun",
+            "reporter": "pm-josh",
+            "priority": "High",
+            "components": [
+                "generator",
+                "backend"
+            ],
+            "fixVersions": [
+                "0.2.0"
+            ],
+            "created": "2025-08-06T10:15:00Z",
+            "updated": "2025-08-12T15:10:00Z",
+            "resolved": "2025-08-12T15:10:00Z",
+            "acceptanceCriteria": [
+                "As a PM, I can see a human-readable summary grouped by feature/fix.",
+                "As a developer, I can tweak the wording before publishing."
+            ],
+            "linkedPRs": [
+                "PR#128",
+                "PR#133"
+            ],
+            "breakingChange": false,
+            "customerImpact": "Improves visibility of delivered work for stakeholders."
+        },
+        {
+            "key": "RGPT-118",
+            "type": "Bug",
+            "status": "Done",
+            "summary": "Fix login redirect loop after magic-link",
+            "labels": [
+                "auth",
+                "bug"
+            ],
+            "assignee": "chanuka",
+            "reporter": "qa-chathumi",
+            "priority": "Critical",
+            "components": [
+                "auth"
+            ],
+            "fixVersions": [
+                "0.2.0"
+            ],
+            "created": "2025-08-07T08:22:00Z",
+            "updated": "2025-08-11T12:35:00Z",
+            "resolved": "2025-08-11T12:35:00Z",
+            "reproSteps": [
+                "Login with magic link",
+                "App redirects back to /login",
+                "Loop repeats"
+            ],
+            "rootCause": "State param not persisted across redirect",
+            "linkedPRs": [
+                "PR#131"
+            ],
+            "breakingChange": false,
+            "customerImpact": "Prevents users from accessing app; high urgency."
+        },
+        {
+            "key": "RGPT-123",
+            "type": "Task",
+            "status": "In Review",
+            "summary": "Template presets for client-facing vs internal notes",
+            "labels": [
+                "templates",
+                "ux"
+            ],
+            "assignee": "kaushani",
+            "reporter": "pm-josh",
+            "priority": "Medium",
+            "components": [
+                "ui"
+            ],
+            "fixVersions": [
+                "0.2.1"
+            ],
+            "created": "2025-08-10T13:45:00Z",
+            "updated": "2025-08-18T14:05:00Z",
+            "linkedPRs": [
+                "PR#136"
+            ],
+            "breakingChange": false,
+            "customerImpact": "Consistent tone across audiences."
+        },
+        {
+            "key": "RGPT-127",
+            "type": "Story",
+            "status": "To Do",
+            "summary": "Filter by label, branch, and date range",
+            "labels": [
+                "filters"
+            ],
+            "assignee": "supun",
+            "reporter": "pm-josh",
+            "priority": "High",
+            "components": [
+                "ui",
+                "backend"
+            ],
+            "fixVersions": [
+                "0.3.0"
+            ],
+            "created": "2025-08-15T09:10:00Z",
+            "updated": "2025-08-18T10:00:00Z",
+            "linkedPRs": [],
+            "breakingChange": false,
+            "customerImpact": "Lets teams curate what goes into release notes."
+        }
+    ]
+}
