@@ -7,7 +7,7 @@ type User = { email: string; password: string };
 const mockUsers: User[] = [
   { email: 'admin@example.com', password: 'Password123!' },
   { email: 'teacher@example.com', password: 'Password123!' },
-  { email: 'student@example.com', password: 'Password123!' },
+  { email: 'kasun@releasegpt.com', password: 'Password123!' },
   { email: 'supun.r@azendtech.com', password: 'Supun@123' },
 ];
 
@@ -53,7 +53,7 @@ export default function LoginPage() {
             className="" // increase size here
           />
           </div>
-          <h1 className={`${jakarta.className} -mt-8 mb-7 text-5xl font-semibold tracking-tight`}>ReleaseGPT</h1>
+          <h1 className={`${jakarta.className} -mt-8 mb-7 text-5xl font-semibold tracking-tight text-gray-700`}>ReleaseGPT</h1>
         </div>
 
           <div
