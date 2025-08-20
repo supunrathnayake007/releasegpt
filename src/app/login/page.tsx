@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import { Plus_Jakarta_Sans } from "next/font/google";
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
@@ -47,8 +48,10 @@ export default function LoginPage() {
         {/* Logo & title */}
         <div className="flex flex-col items-center">
           <div className="w-[200px]">
-            <img
+            <Image
             src="/logo.png"
+            width={200}
+            height={200}
             alt="ReleaseGPT Logo"
             className="" // increase size here
           />
