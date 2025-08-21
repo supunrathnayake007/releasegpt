@@ -1,0 +1,32 @@
+{
+    "commits": [
+        {
+            "id": "c1",
+            "hash": "d91a2b3",
+            "message": "feat: add wind compensation to route planner",
+            "author": "Alice",
+            "date": "2025-08-15"
+        },
+        {
+            "id": "c2",
+            "hash": "a73ff21",
+            "message": "fix: prevent false overheating alerts",
+            "author": "Bob",
+            "date": "2025-08-16"
+        },
+        {
+            "id": "c3",
+            "hash": "c81d5a7",
+            "message": "ui: new dashboard for fleet live tracking",
+            "author": "Chathumi",
+            "date": "2025-08-18"
+        },
+        {
+            "id": "c4",
+            "hash": "f51c8d9",
+            "message": "perf: optimize LIDAR data processing",
+            "author": "Chanuka",
+            "date": "2025-08-19"
+        }
+    ]
+}

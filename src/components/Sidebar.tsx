@@ -9,6 +9,7 @@ const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"], weight: ["600","700"] })
 const links = [
   { href: '/dashboard', label: 'Dashboard' },
   { href: '/connected', label: 'Connected Accounts' },
+  { href: '/projects', label: 'Projects' },
   { href: '/generate',  label: 'Generate Notes' },
   { href: '/templates', label: 'Templates' },
 ];

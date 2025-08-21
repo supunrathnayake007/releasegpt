@@ -1,0 +1,19 @@
+{
+    "repos": [
+        {
+            "id": "2",
+            "name": "team/pixelforge-engine",
+            "defaultBranch": "develop"
+        },
+        {
+            "id": "1",
+            "name": "team/skyroute-service",
+            "defaultBranch": "main"
+        },
+        {
+            "id": "3",
+            "name": "team/pulsetrack-platform",
+            "defaultBranch": "staging"
+        }
+    ]
+}

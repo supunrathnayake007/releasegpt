@@ -1,0 +1,22 @@
+{
+    "tickets": [
+        {
+            "id": "t1",
+            "key": "RLS-101",
+            "type": "Story",
+            "summary": "Add release notes generator"
+        },
+        {
+            "id": "t2",
+            "key": "RLS-102",
+            "type": "Bug",
+            "summary": "Fix Jira sync date parsing"
+        },
+        {
+            "id": "t3",
+            "key": "RLS-103",
+            "type": "Improvement",
+            "summary": "Improve commit grouping"
+        }
+    ]
+}

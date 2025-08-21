@@ -1,0 +1,85 @@
+{
+    "providers": [
+        {
+            "id": "jira",
+            "name": "Jira",
+            "status": "connected",
+            "account": {
+                "site": "acme.atlassian.net",
+                "user": "supun@acme.com"
+            },
+            "lastSync": "2025-08-20T11:15:00Z",
+            "nextSync": "2025-08-21T11:15:00Z",
+            "scopes": [
+                "read:issue",
+                "read:project"
+            ],
+            "stats": {
+                "projects": 3,
+                "tickets": 124
+            },
+            "issues": [],
+            "syncMode": "daily"
+        },
+        {
+            "id": "devops",
+            "name": "Azure DevOps",
+            "status": "attention",
+            "account": {
+                "org": "acme-dev",
+                "user": "supun"
+            },
+            "lastSync": "2025-08-20T10:02:00Z",
+            "nextSync": null,
+            "scopes": [
+                "code:read"
+            ],
+            "stats": {
+                "repos": 5,
+                "commits": 86
+            },
+            "issues": [
+                "Token expires in 2 days"
+            ],
+            "syncMode": "manual"
+        },
+        {
+            "id": "github",
+            "name": "GitHub",
+            "status": "disconnected",
+            "account": null,
+            "lastSync": null,
+            "nextSync": null,
+            "scopes": [],
+            "stats": {},
+            "issues": [],
+            "syncMode": null
+        }
+    ],
+    "mappings": [
+        {
+            "provider": "jira",
+            "external": "SR",
+            "internalProjectId": "sr-1"
+        },
+        {
+            "provider": "devops",
+            "external": "team/skyroute-service",
+            "internalProjectId": "sr-1"
+        }
+    ],
+    "audit": [
+        {
+            "at": "2025-08-20T11:16:00Z",
+            "event": "sync_completed",
+            "provider": "jira",
+            "details": "32 tickets updated"
+        },
+        {
+            "at": "2025-08-20T10:03:00Z",
+            "event": "token_warning",
+            "provider": "devops",
+            "details": "Token expires in 2 days"
+        }
+    ]
+}

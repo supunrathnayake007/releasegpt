@@ -1,0 +1,18 @@
+{
+    "commits": [
+        {
+            "id": "c1",
+            "sha": "a1b2c3d",
+            "message": "feat: group tickets by type",
+            "author": "Supun",
+            "date": "2025-08-16"
+        },
+        {
+            "id": "c2",
+            "sha": "d4e5f6g",
+            "message": "fix: jira date parsing error",
+            "author": "Chanuka",
+            "date": "2025-08-16"
+        }
+    ]
+}

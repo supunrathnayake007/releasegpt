@@ -1,0 +1,16 @@
+{
+    "projects": [
+        {
+            "key": "PF",
+            "name": "PixelForge - Indie Game Tools"
+        },
+        {
+            "key": "PT",
+            "name": "PulseTrack - Workplace Analytics"
+        },
+        {
+            "key": "SR",
+            "name": "SkyRoute - AI Drone Logistics"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "tickets": [
+        {
+            "id": "t1",
+            "key": "SR-101",
+            "title": "Optimize drone routing for heavy winds",
+            "type": "Story"
+        },
+        {
+            "id": "t2",
+            "key": "SR-102",
+            "title": "Fix battery overheating alert issue",
+            "type": "Bug"
+        },
+        {
+            "id": "t3",
+            "key": "SR-103",
+            "title": "Add dashboard for live fleet monitoring",
+            "type": "Epic"
+        },
+        {
+            "id": "t4",
+            "key": "SR-104",
+            "title": "Improve obstacle detection with LIDAR",
+            "type": "Story"
+        }
+    ]
+}

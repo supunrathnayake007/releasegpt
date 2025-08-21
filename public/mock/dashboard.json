@@ -1,0 +1,185 @@
+{
+    "stats": {
+        "projects": 3,
+        "tickets": 124,
+        "commits": 86,
+        "releases": 7
+    },
+    "projects": [
+        {
+            "id": "sr-1",
+            "name": "SkyRoute - AI Drone Logistics",
+            "jiraKey": "SR",
+            "lastRelease": "2025-08-19",
+            "ticketCount": 51,
+            "commitCount": 32,
+            "status": "Active"
+        },
+        {
+            "id": "pf-1",
+            "name": "PixelForge - Indie Game Tools",
+            "jiraKey": "PF",
+            "lastRelease": "2025-08-12",
+            "ticketCount": 38,
+            "commitCount": 27,
+            "status": "Draft"
+        },
+        {
+            "id": "pt-1",
+            "name": "PulseTrack - Workplace Analytics",
+            "jiraKey": "PT",
+            "lastRelease": "2025-08-05",
+            "ticketCount": 35,
+            "commitCount": 27,
+            "status": "Released"
+        }
+    ],
+    "activity": {
+        "recentTickets": [
+            {
+                "id": "t1",
+                "key": "SR-104",
+                "title": "Improve obstacle detection with LIDAR",
+                "project": "SkyRoute",
+                "when": "2h ago",
+                "type": "Story"
+            },
+            {
+                "id": "t2",
+                "key": "PF-77",
+                "title": "Add shader editor live preview",
+                "project": "PixelForge",
+                "when": "6h ago",
+                "type": "Story"
+            },
+            {
+                "id": "t3",
+                "key": "PT-63",
+                "title": "Fix timezone bug in daily insights",
+                "project": "PulseTrack",
+                "when": "8h ago",
+                "type": "Bug"
+            },
+            {
+                "id": "t4",
+                "key": "SR-105",
+                "title": "Integrate wind gust model v2",
+                "project": "SkyRoute",
+                "when": "Yesterday",
+                "type": "Story"
+            },
+            {
+                "id": "t5",
+                "key": "PF-81",
+                "title": "Export project as template",
+                "project": "PixelForge",
+                "when": "Yesterday",
+                "type": "Task"
+            },
+            {
+                "id": "t6",
+                "key": "PT-67",
+                "title": "Improve cohort chart rendering",
+                "project": "PulseTrack",
+                "when": "2d ago",
+                "type": "Task"
+            }
+        ],
+        "recentCommits": [
+            {
+                "id": "c1",
+                "hash": "d91a2b3",
+                "message": "feat: add wind compensation to route planner",
+                "author": "Alice",
+                "project": "SkyRoute",
+                "when": "1h ago"
+            },
+            {
+                "id": "c2",
+                "hash": "a73ff21",
+                "message": "fix: prevent false overheating alerts",
+                "author": "Bob",
+                "project": "SkyRoute",
+                "when": "4h ago"
+            },
+            {
+                "id": "c3",
+                "hash": "c81d5a7",
+                "message": "ui: shader preview panel",
+                "author": "Chathumi",
+                "project": "PixelForge",
+                "when": "6h ago"
+            },
+            {
+                "id": "c4",
+                "hash": "f51c8d9",
+                "message": "perf: faster analytics refresh",
+                "author": "Chanuka",
+                "project": "PulseTrack",
+                "when": "Yesterday"
+            },
+            {
+                "id": "c5",
+                "hash": "1a2b3c4",
+                "message": "refactor: extract drone state hooks",
+                "author": "Supun",
+                "project": "SkyRoute",
+                "when": "Yesterday"
+            },
+            {
+                "id": "c6",
+                "hash": "9f8e7d6",
+                "message": "chore: bump deps",
+                "author": "Alice",
+                "project": "PixelForge",
+                "when": "2d ago"
+            }
+        ]
+    },
+    "charts": {
+        "ticketsByType": [
+            {
+                "type": "Story",
+                "count": 48
+            },
+            {
+                "type": "Bug",
+                "count": 22
+            },
+            {
+                "type": "Task",
+                "count": 35
+            },
+            {
+                "type": "Epic",
+                "count": 6
+            },
+            {
+                "type": "Chore",
+                "count": 13
+            }
+        ],
+        "commitsByAuthor": [
+            {
+                "author": "Alice",
+                "commits": 21
+            },
+            {
+                "author": "Bob",
+                "commits": 14
+            },
+            {
+                "author": "Chathumi",
+                "commits": 18
+            },
+            {
+                "author": "Chanuka",
+                "commits": 16
+            },
+            {
+                "author": "Supun",
+                "commits": 17
+            }
+        ]
+    }
+}
